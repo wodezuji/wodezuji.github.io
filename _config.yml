@@ -1,0 +1,52 @@
+#Site
+title: 赖艳的博客-LanLan Blog
+description: This is LanLan' home.
+logo: favicon.png
+url: https://wodezuji.github.io/
+rss_url: /feed.xml
+
+# Jekyll
+permalink:          /blog/:title/
+markdown:           kramdown
+highlighter:        rouge
+kramdown:
+  auto_ids:         true
+  footnote_nr:      1
+  entity_output:    as_char
+  toc_levels:       1..6
+  enable_coderay:   false
+sass:
+  sass_dir:         assets/_sass
+  style:            compressed
+
+# Comment
+comment:
+  disqus: kongsong    
+  # duoshuo: kongsong
+  # youyan: 2122392
+  laibili: MTAyMC8yODgzNC81NDA0
+
+# Website analytics
+google_analytics: UA-82494501-1
+baidu_analytics: 5b31ffbbdc6cff18727f3adf75a03777    #from //hm.baidu.com/hm.js?***
+
+# Author information:
+author:
+  name: LanLan
+  about_me: I'm Lan Lan. This is my online home & blog, where I share thoughts about front-end development, my daily life and other insteresting topics. Feel free to contact me by email if you have any question.
+ 
+# Social Links
+#email:               laiyan1207@163.com
+github:              songkong
+stackoverflow:      6438519/song-kong   #from a "http://stackoverflow.com/users/123456/username" link
+linkedin:           kongsong
+
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-gist
+
+# Exclude list
+exclude: [README.md, Gemfile, Gemfile.lock, _site, src, vendor, CNAME, LICENSE, Rakefile,.sass-cache,.DS_Store,.idea]
