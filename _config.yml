@@ -1,6 +1,6 @@
 #Site
-title: 赖艳的博客-LanLan Blog
-description: This is LanLan' home.
+title: 赖艳的博客-LaiYan Blog
+description: This is laiyan' home.
 logo: favicon.png
 url: https://wodezuji.github.io/
 rss_url: /feed.xml
@@ -21,10 +21,8 @@ sass:
 
 # Comment
 comment:
-  disqus: kongsong    
-  # duoshuo: kongsong
-  # youyan: 2122392
-  laibili: MTAyMC8yODgzNC81NDA0
+  #disqus: wodezuji    
+  #laibililaibili: MTAyMC8yODgzNC81NDA0
 
 # Website analytics
 google_analytics: UA-82494501-1
@@ -32,15 +30,12 @@ baidu_analytics: 5b31ffbbdc6cff18727f3adf75a03777    #from //hm.baidu.com/hm.js?
 
 # Author information:
 author:
-  name: LanLan
-  about_me: I'm Lan Lan. This is my online home & blog, where I share thoughts about front-end development, my daily life and other insteresting topics. Feel free to contact me by email if you have any question.
+  name: wodezuji
+  about_me: 待定
  
 # Social Links
 #email:               laiyan1207@163.com
-github:              songkong
-stackoverflow:      6438519/song-kong   #from a "http://stackoverflow.com/users/123456/username" link
-linkedin:           kongsong
-
+github:              wodezuji
 
 # Plugins
 plugins:
